@@ -146,6 +146,7 @@ table {
 		padding-left: 40px;
 		text-decoration: none;
 		display: inline-block;
+		text-transform: uppercase;
 	}
 	.image
 	{
@@ -154,6 +155,7 @@ table {
 		padding-left: 102px;
 		padding-right: 80px;
 		float: right;
+
 
 
 
