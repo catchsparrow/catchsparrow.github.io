@@ -106,7 +106,7 @@ table {
 		font-family: sans-serif;
 		padding-bottom: 28px;
 	}
-	.link
+	.link1, .link2, .link3
 	{
 		font-size: 16px;
 		color: #01bfc1;
@@ -117,7 +117,18 @@ table {
 		border-color: #31393b;
 		padding-bottom: 37px;
 		margin-bottom: 50px;
+	}
+	.link1
+	{
 		margin-top: 100px;
+	}
+	.link2
+	{
+		margin-top: 58px;
+	}
+	.link3
+	{
+		margin-top: 32px;
 	}
 	.cost
 	{	
@@ -145,10 +156,17 @@ table {
 	}
 	.image
 	{
-		height: 800px;
-		width: 640px;
+		height: 786px;
+		width: 629px;
 		float: right;
-
+	}
+	.image3
+	{
+		height: 588px;
+		width: 629px;
+		float: right;
+	}
+	
 
 
 
