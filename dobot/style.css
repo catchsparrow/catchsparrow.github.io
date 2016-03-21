@@ -80,7 +80,7 @@ table {
 	}
 	article:first-of-type
 	{
-		padding-top: 190px;
+		padding-top: 120px;
 	}
 	article:not(:last-of-type)
 	{
@@ -110,7 +110,7 @@ table {
 		font-family: sans-serif;
 		padding-bottom: 28px;
 	}
-	.link1, .link2, .link3
+	.link
 	{
 		font-size: 16px;
 		color: #01bfc1;
@@ -121,18 +121,7 @@ table {
 		border-color: #31393b;
 		padding-bottom: 37px;
 		margin-bottom: 50px;
-	}
-	.link1
-	{
-		margin-top: 100px;
-	}
-	.link2
-	{
-		margin-top: 58px;
-	}
-	.link3
-	{
-		margin-top: 32px;
+		margin-top: 50px;
 	}
 	.cost
 	{	
