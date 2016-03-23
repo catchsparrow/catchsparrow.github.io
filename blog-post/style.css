@@ -109,3 +109,12 @@ table {
 	{
 		padding-bottom: 112px;
 	}
+	h3
+	{
+		color: grey;
+		font-weight: bold;	
+	}
+	h4
+	{
+		font-style: italic;
+	}
