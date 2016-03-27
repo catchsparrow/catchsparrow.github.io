@@ -118,3 +118,8 @@ table {
 	{
 		font-style: italic;
 	}
+	.sketch
+	{
+		height: 650px;
+		width: 650px;
+	}
