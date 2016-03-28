@@ -50,7 +50,6 @@ table {
 	{
 		background-color: #1a2325;
 		border-top: 3px solid #f8695a;
-		font-family: sans-serif;
 		font-size: 16px;
 		color: #8e9191;
 		line-height: 24px;
@@ -72,6 +71,8 @@ table {
 	p
 	{
 		width: 379px;
+		font-family: LFT Etica;
+		font-weight: regular;
 	}
 	article 
 	{
@@ -100,19 +101,22 @@ table {
 	{
 		font-size: 36px; 
 		color: white; 
-		font-family: sans-serif;
+		font-family: Quatro Slab;
 		padding-bottom: 20px;
 	}
 	.name2
 	{
 		font-size: 16px;
 		color: #484e4f;
-		font-family: sans-serif;
+		font-family: LFT Etica;
+		font-weight: book;
 		padding-bottom: 28px;
 	}
 	.link
 	{
 		font-size: 16px;
+		font-family: LFT Etica;
+		font-weight: regular;
 		color: #01bfc1;
 		text-decoration: none;
 		display: block;
@@ -134,6 +138,8 @@ table {
 	{	
 		background-color: #01c2c3;
 		font-size: 14px;
+		font-family: LFT Etica;
+		font-weight: semibold;
 		color: #ffffff;
 		padding-top:16px;
 		padding-bottom:16px;

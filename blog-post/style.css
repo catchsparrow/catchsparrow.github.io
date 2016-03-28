@@ -100,6 +100,36 @@ table {
 		margin-top: 30px;
 		height: 100px;
 		width: 100px;
+  	  	animation: 
+    		pulse 3s ease infinite alternate, 
+    		nudge 5s linear infinite alternate;
+  		border-radius: 100%;
+	}
+		@keyframes pulse 
+	{
+  		0%, 100% 
+  		{
+    	background-color: turquoise;
+  		}
+  		50% 
+  		{
+    	background-color: lightblue;
+  		}
+	}
+		@keyframes nudge 
+	{
+  		0%, 100% 
+  		{
+   		transform: translate(0, 0);
+  		}
+  		50% 
+  		{
+    	transform: translate(150px, 0);
+  		}
+  		80% 
+  		{
+    	transform: rotate(10deg);
+  		}
 	}
 	.main-text
 	{
@@ -123,3 +153,4 @@ table {
 		height: 650px;
 		width: 650px;
 	}
+
