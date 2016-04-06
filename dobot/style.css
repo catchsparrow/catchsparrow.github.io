@@ -156,41 +156,38 @@ table {
 	{
 		height: 786px;
 		width: 629px;
-		float: right;
 		border: 6px solid white;
+		float: right;
 	}
 	.image3
 	{
 		height: 588px;
 		width: 629px;
 		border: 6px solid white;
-	} 
-	.name:last-of-type .name2:last-of-type
-	{
-		float: left;
+		float: right;
 	}
 	@media only screen and (max-width: 650px)
 	{
 	.image 
 		{
-		height: 300px;
-		width: 240px;
+		height: 500px;
+		width: 360px;
 		float: left;
 		}
 	.image3
 		{
-		height: 250px;
-		width: 270px;
+		height: 320px;
+		width: 360px;
+		float: left;
 		}
 	.main 
 	{
 		width:500px;
 	}
+	.all-text
+	{
+		padding-top: 28px;
 	}
-	p:last-of-type .p1s:last-of-type
-	{		
-		float: clear;
-		max-width: 30%;
 	}
 
 
