@@ -163,34 +163,15 @@ table {
 	{
 		height: 588px;
 		width: 629px;
+		float: right;
 		border: 6px solid white;
-	} 
-	.name:last-of-type .name2:last-of-type
-	{
-		float: left;
 	}
-	@media only screen and (max-width: 650px)
+	@media (max-width: 800px)
 	{
-	.image 
+	.all-text 
 		{
-		height: 300px;
-		width: 240px;
-		float: left;
+		color: blue;
 		}
-	.image3
-		{
-		height: 250px;
-		width: 270px;
-		}
-	.main 
-	{
-		width:500px;
-	}
-	}
-	p:last-of-type .p1s:last-of-type
-	{		
-		float: clear;
-		max-width: 30%;
 	}
 
 
