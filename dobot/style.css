@@ -58,7 +58,8 @@ table {
 	{
 		margin-left: auto;
 		margin-right: auto;
-		width: 1100px;
+		max-width: 1100px;
+		width: 90%;
 	}
 	.logo
 	{
@@ -67,11 +68,10 @@ table {
 	.all-text
 	{
 		float:left;
-		width: 40%;
+		width: 35%;
 	}
 	p
 	{
-		width: 379px;
 		font-family: LFT Etica;
 		font-weight: regular;
 	}
@@ -160,18 +160,18 @@ table {
 	.image
 	{
 		height: 786px;
-		width: 60%;
+		width: 55%;
 		border: 6px solid white;
 		float: right;
 	}
 	.image3
 	{
 		height: 588px;
-		width: 60%;
+		width: 55%;
 		border: 6px solid white;
 		float: right;
 	}
-	@media only screen and (max-width: 630px)
+	@media only screen and (max-width: 750px)
 	{
 	.image 
 		{
@@ -192,6 +192,7 @@ table {
 	.all-text
 	{
 		padding-top: 28px;
+		width: 95%;
 	}
 	}
 
