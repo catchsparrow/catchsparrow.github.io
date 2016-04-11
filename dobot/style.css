@@ -59,7 +59,7 @@ table {
 		margin-left: auto;
 		margin-right: auto;
 		max-width: 1100px;
-		width: 90%;
+		width: 95%;
 	}
 	.logo
 	{
@@ -104,6 +104,7 @@ table {
 		color: white; 
 		font-family: Quatro Slab;
 		padding-bottom: 20px;
+		line-height: 36px;
 	}
 	.name2
 	{
@@ -116,6 +117,7 @@ table {
 	.headers
 	{
 		display: inline-block;
+		width: 40%;
 	}
 	.link
 	{
@@ -176,25 +178,31 @@ table {
 	.image 
 		{
 		height: 500px;
-		width: 360px;
+		width: 95%;
 		float: left;
 		}
 	.image3
 		{
 		height: 320px;
-		width: 360px;
+		width: 95%;
 		float: left;
 		}
 	.main 
 	{
 		width: 400px;
+
 	}
 	.all-text
 	{
 		padding-top: 28px;
 		width: 95%;
 	}
+	.headers
+	{
+		width: 100%;
 	}
+	}
+
 
 
 	
