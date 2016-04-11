@@ -161,7 +161,7 @@ table {
 	}
 	.image
 	{
-		height: 786px;
+		height: 80%;
 		width: 55%;
 		border: 6px solid white;
 		float: right;
@@ -199,7 +199,11 @@ table {
 	}
 	.headers
 	{
-		width: 100%;
+		width: 95%;
+	}
+	.name
+	{
+		font-size: 32px;
 	}
 	}
 
