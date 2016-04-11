@@ -67,6 +67,7 @@ table {
 	.all-text
 	{
 		float:left;
+		width: 40%;
 	}
 	p
 	{
@@ -159,14 +160,14 @@ table {
 	.image
 	{
 		height: 786px;
-		width: 629px;
+		width: 60%;
 		border: 6px solid white;
 		float: right;
 	}
 	.image3
 	{
 		height: 588px;
-		width: 629px;
+		width: 60%;
 		border: 6px solid white;
 		float: right;
 	}
