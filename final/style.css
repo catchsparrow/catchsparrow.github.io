@@ -104,8 +104,9 @@ h1 {
 #text-display{
   font-size: 40px;
   position: fixed;
-  -webkit-transform: rotate(90deg);
-  transform: translate (350px, 0);
+  padding-bottom: 150px;
+  padding-right: 50px;
+  -webkit-transform: rotate(270deg);
 }
 .img-main{
   margin: auto;
