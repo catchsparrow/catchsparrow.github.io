@@ -8,7 +8,3 @@
     var display = document.getElementById('text-display');
     display.innerHTML = "projects";
     }
-
-
- 
- 
