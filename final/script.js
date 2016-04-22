@@ -1,4 +1,4 @@
-function changeText(text)
+	function changeText(text)
     {
     var display = document.getElementById('text-display');
     display.innerHTML = text;
@@ -9,4 +9,6 @@ function changeText(text)
     display.innerHTML = "projects";
     }
 
+
+ 
  
