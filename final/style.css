@@ -48,20 +48,15 @@ table {
 }
 .body {
   font-size: 16px;
-  font-family: sans-serif;
-}
-.main {
-  margin: auto;
-  max-width: 1100px;
-  width: 95%;
+  font-family: Neuzeit Grotesk;
 }
 .header{
  background-color: black;
  position: relative;
 }
 .names {
-  font-size: 60px;
-  line-height: 44px;
+  font-size: 40px;
+  line-height: 30px;
   color: white;
   padding: 20px;
   display: inline-block;
@@ -93,7 +88,7 @@ table {
   50% { opacity: 0; }
   100% { opacity: 0; }
 }
-.catriona {
+.catriona:hover {
     animation: hideshow 5s 1.5s ease infinite;
 }
 @keyframes hideshow {
@@ -106,14 +101,20 @@ table {
   width: 40px;
   height: 40px;
   position: absolute;
-  top: 45px;
-  right: 45px;
+  top: 30px;
+  right: 30px;
 }
+.main{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1100px;
+    width: 95%;
+  }
 #text-display{
-  font-size: 40px;
+  font-size: 30px;
   position: fixed;
-  padding-bottom: 150px;
-  padding-right: 50px;
+  padding-bottom: 100px;
+  padding-right: 100px;
   -webkit-transform: rotate(270deg);
 }
 .img-main{
