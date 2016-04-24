@@ -65,28 +65,14 @@ table {
   display: inline-block;
   position: relative;
   }
-.name1, .name2 {
+#head {
   display: inline-block;
   position: absolute;
-}
-.name1:hover {
-  animation: hideshow 5s ease infinite;
-  @keyframes hideshow {
-  0% { opacity: 1; }
-  10% { opacity: 1; }
-  50% { opacity: 0; }
-  100% { opacity: 0; }
-  }
-  }
-.name2 {
-  opacity: 0;
-  animation: hideshow 5s 1.5s ease infinite;
-}
-@keyframes hideshow {
-  0% { opacity: 1; }
-  10% { opacity: 1; }
-  50% { opacity: 0; }
-  100% { opacity: 0; }
+  font-size: 40px;
+  line-height: 30px;
+  color: white;
+  padding: 20px;
+  display: inline-block;
 }
 .catriona:hover {
     animation: hideshow 5s 1.5s ease infinite;
