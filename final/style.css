@@ -55,11 +55,18 @@ table {
  position: relative;
 }
 .names {
-  font-size: 40px;
-  line-height: 30px;
+  font-size: 30px;
   color: white;
-  padding: 20px;
-  display: inline-block;
+  padding: 10px;
+}
+.names:hover .name2 {
+  opacity: 1;
+}
+.name2{
+  opacity:0;
+  background-color: black;
+  width: 80px;
+  transition-duration: 0.25s;
 }
 .name {
   display: inline-block;
@@ -69,26 +76,10 @@ table {
   display: inline-block;
   position: absolute;
 }
-.name1:hover {
-  animation: hideshow 5s ease infinite;
-  @keyframes hideshow {
-  0% { opacity: 1; }
-  10% { opacity: 1; }
-  50% { opacity: 0; }
-  100% { opacity: 0; }
-  }
-  }
-.name2 {
-  opacity: 0;
-  animation: hideshow 5s 1.5s ease infinite;
+.surname{
+  margin-top: -5px;
 }
-@keyframes hideshow {
-  0% { opacity: 1; }
-  10% { opacity: 1; }
-  50% { opacity: 0; }
-  100% { opacity: 0; }
-}
-.catriona:hover {
+.catriona {
     animation: hideshow 5s 1.5s ease infinite;
 }
 @keyframes hideshow {
@@ -104,9 +95,6 @@ table {
   top: 30px;
   right: 30px;
 }
-.svg-menu img {
-  width: 30px;
-}
 .main{
   margin-left: auto;
   margin-right: auto;
@@ -116,56 +104,62 @@ table {
 #text-display{
   font-size: 30px;
   position: fixed;
-  top: 380px;
-    -webkit-transform-origin: 0 0;
-    -moz-transform-origin:    0 0;
-    -ms-transform-origin:     0 0;
-    -o-transform-origin:      0 0;
+  top: 160px;
+    -webkit-transform-origin: 40px 60px;
     -webkit-transform: rotate(270deg); 
-    -moz-transform:    rotate(270deg); 
-    -ms-transform:     rotate(270deg); 
-    -o-transform:      rotate(270deg); 
 }
 article {
   padding-top: 30px;
   padding-left: 25px;
   padding-right: 25px;
 }
-#images{
+.images {
   opacity: 0.25;
+  float: left;
+  display: inline-block;
   padding-right: 10px;
   padding-left: 10px;
   padding-top: 20px;
-  height: 320px;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  box-sizing: border-box;
+  transition-duration: 0.25s;
 }
-#images:hover {
+.images:hover {
   opacity: 1;
 }
-.edifly{
-  width:520px;
+#edifly{
+  width:60%;
 }
-.tmiy{
-  width:420px;
+#tmiy{
+  width:40%;
 }
-.refugee{
-  width:240px;
+#refugee{
+  width:40%;
 }
-.shed
+#shed
 {
-  width:460px;
+  width:55%;
 }
-.domino
+#domino
 {
-  width:220px;
+  width:40%;
 }
-.package
+#package
 {
-  width:450px;
+  width:40%
 }
-.scher
+#scher
 {
- width:450px;
+ width:60%;
+}
+#barras
+{
+  width:40%;
+}
+#banner
+{
+  width:60%;
+}
+#apple
+{
+  width:40%;
 }
