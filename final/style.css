@@ -49,6 +49,7 @@ table {
 .body {
   font-size: 16px;
   font-family: "Lft Etica";
+  line-height: 20px;
   font-style: normal;
   font-weight: 400;
 }
@@ -106,13 +107,13 @@ span {
   width: 95%;
 }
 aside{
-  width: 200px;
+  width: 300px;
   text-align: right;
   transform:rotate(-90deg);
   transform-origin: right;
-  transform-origin: 115% 0%;
+  transform-origin: 110% 0%;
   position: fixed;
-  left: -200px;
+  left: -300px;
   font-size: 20px;
 }
 article {
@@ -170,8 +171,17 @@ article {
 {
   width:40%;
 }
-#two
+#about
 {
   position: absolute;
   top: 2500px;
+  right: 50px;
+  font-size: 22px;
 }
+#education
+{
+  position: absolute;
+  top: 2550px;
+  right: 50px;
+}
+
