@@ -66,14 +66,14 @@ h1 {
 }
 span {
   padding-right: 100px;
-  position: absolute;
+  position:absolute;
   left: 40px;
   background-color: black;
   opacity: 0;
   transition-duration: .25s;
   transition-property: opacity;
 }
-span:hover, .names {
+.names:hover span {
   opacity: 1;
 }
 .name {
