@@ -61,22 +61,24 @@ table {
   color: white;
   padding: 10px;
 }
-.names:hover .name2 {
-  opacity: 1;
+h1 {
+  position: relative;
 }
-.name2{
-  opacity:0;
+span {
+  padding-right: 100px;
+  position: absolute;
+  left: 40px;
   background-color: black;
-  width: 80px;
-  transition-duration: 0.25s;
+  opacity: 0;
+  transition-duration: .25s;
+  transition-property: opacity;
+}
+span:hover, .names {
+  opacity: 1;
 }
 .name {
   display: inline-block;
   position: relative;
-  }
-.name1, .name2 {
-  display: inline-block;
-  position: absolute;
 }
 .surname{
   margin-top: -5px;
