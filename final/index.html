@@ -16,24 +16,25 @@
         	<h1 class="name">catriona<span>ch</span></h1>
         	<h1 class="surname">sparrow</h1>
 		</div>
-	<nav>	
-	<button>menu</button>
-		<h2><a href="#portfolio">portfolio</a></h2>
-		<h2><a href="#about">about</a></h2>
-		<h2><a href="#contact">contact</a></h2>
-	<script>
+		<nav class="menu">	
+			<button>menu</button>
+				<h2><a href="#portfolio">portfolio</a></h2>
+				<h2><a href="#about">about</a></h2>
+				<h2><a href="#contact">contact</a></h2>
+		<script>
 		$( "button" ).click(function() {
   		$( "h2" ).toggle( "slow" );
 		});
-	</script>
-	</nav>
-	</div>
+		</script>
+		</nav>
+		</div>
+	
 	<div class="main">
-		<article>
-			<aside>
+		<aside>
 			<div id="text-display"> 
 			</div>
-			</aside>
+		</aside>
+		<article>
 			<img src="images/edifly.jpg" alt="edifly app screens" id="edifly" 
 			class="images" onmouseover="changeText('app design')" onmouseout="defaultText()">
 			<img src="images/tmiy.jpg" alt="branding objects" id="tmiy" class="images" onmouseover="changeText('branding objects')" onmouseout="defaultText()">
@@ -45,15 +46,31 @@
 			<img src="images/unison.jpg" alt="trade union banner" id="banner" class="images" onmouseover="changeText('trade union banner design')" onmouseout="defaultText()">
 			<img src="images/barras.jpg" alt="type design" id="barras" class="images" onmouseover="changeText('typeface design')" onmouseout="defaultText()">
 		</article>
+
+	<nav>
+		<div class="sidemenu" id="sidemenu1">	
+			<h4><a href="#portfolio">portfolio</a></h4>
+			<h4><a href="#about" id="about2">about</a></h4>
+			<h4><a href="#contact">contact</a></h4>
+		</div>
+	</nav>
 		
 		<article>
-		<h3 id="about">graphic designer</h3>
-		<section id="education">
-		<p> 2014-2017 Edinburgh College of Art, University of Edinburgh, Scotland </p>
-		<p> Spring Semester 2016 Massachusetts College of Art & Design, Boston, MA, USA </p>
-		<p> 2013-2014 Foundation Diploma in Art & Design, University of Falmouth, Cornwall </p>
-		</section>
+			<h3 id="about">graphic designer</h3>
+			<section id="education">
+				<p> 2014-2017 Edinburgh College of Art, University of Edinburgh, Scotland </p>
+				<p> Spring Semester 2016 Massachusetts College of Art & Design, Boston, MA, USA </p>
+				<p> 2013-2014 Foundation Diploma in Art & Design, University of Falmouth, Cornwall </p>
+			</section>
 		</article>
+
+		<nav>
+		<div class="sidemenu" id="sidemenu2">	
+			<h5><a href="#portfolio">portfolio</a></h5>
+			<h5><a href="#about">about</a></h5>
+			<h5><a href="#contact" id="contact3">contact</a></h5>
+		</div>
+		</nav>
 		
 		<article>
 		<h3 id="contact">details</h3>
@@ -61,6 +78,8 @@
 		<p> csparrow@massart.edu </p>
 		</section>
 		</article>
+
+
 
 	<?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
@@ -74,6 +93,6 @@
 <rect x="189.6" y="241.6" class="st0" width="260.4" height="52.1"/>
 <text transform="matrix(1 0 0 1 189.6284 289.5869)" class="st1 st2">catriona</text>
 </svg>	
-		</div>
+	</div>
 </body>		
 </html>

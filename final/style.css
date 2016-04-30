@@ -114,10 +114,9 @@ a:visited, a:link {
   text-decoration: none;
 }
 a:hover {
-  font-weight: bold;
   text-decoration: line-through;
 }
-nav
+.menu
 {
   position: absolute;
   top: 10px;
@@ -134,9 +133,9 @@ aside{
   text-align: right;
   transform:rotate(-90deg);
   transform-origin: right;
-  transform-origin: 110% 0%;
+  transform-origin: 120% 0%;
   position: fixed;
-  left: -300px;
+  left: -340px;
   font-size: 20px;
 }
 article {
@@ -194,31 +193,67 @@ article {
 {
   width:40%;
 }
-#about
+
+section, h3 
 {
   position: absolute;
-  padding-top: 20px;
+  right: 100px;
+  text-align: right;
+}
+h3
+{
+  font-size:18px;
+}
+
+#about
+{
   top: 2500px;
-  right: 50px;
-  font-size: 18px;
 }
 #education
 {
-  position: absolute;
   top: 2550px;
-  right: 50px;
 }
 #contact
 {
-  position: absolute;
-  padding-top: 20px;
   top: 3000px;
-  right: 50px;
-  font-size: 18px;
 }
 #email
 {
-  position: absolute;
   top: 3050px;
-  right: 50px;
+}
+.sidemenu 
+{
+  width: 400px;
+  text-align: left;
+  transform:rotate(-270deg);
+  transform-origin: right;
+  transform-origin: -10% 40%;
+  position: absolute;
+  right: -410px;
+}
+#sidemenu1
+{
+  top: 2500px;
+}
+#sidemenu2
+{
+  top: 3000px;
+}
+
+h4, h5
+{
+  background-color: black;
+  font-size: 18px;
+  float: left;
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#about2
+{
+  text-decoration: line-through;
+}
+#contact3
+{
+  text-decoration: line-through;
 }
