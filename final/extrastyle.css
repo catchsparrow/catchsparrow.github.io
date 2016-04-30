@@ -85,3 +85,33 @@ $(document).ready(function(){
   });
 });
 
+about link to new page
+
+<p><a href='about/index.html'>About</a></p>
+
+hamburger image
+
+<img src ="images/hamburger1.png" alt="menu" class="hamburger">
+.hamburger{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+menu button sideways
+
+button
+{
+  width: 400px;
+  text-align: left;
+  background-color: none;
+  transform:rotate(-270deg);
+  transform-origin: right;
+  transform-origin: -10% 40%;
+  position: fixed;
+  right: -410px;
+  font-size: 20px;
+  }
+  
