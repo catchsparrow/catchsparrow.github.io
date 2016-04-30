@@ -48,7 +48,7 @@ table {
 }
 .body {
   font-size: 16px;
-  font-family: "neuzeit-grotesk",sans-serif;
+  font-family: "Lft Etica";
   font-style: normal;
   font-weight: 400;
 }
@@ -57,7 +57,7 @@ table {
  position: relative;
 }
 .names {
-  font-size: 30px;
+  font-size: 22px;
   color: white;
   padding: 10px;
 }
@@ -67,7 +67,7 @@ h1 {
 span {
   padding-right: 100px;
   position:absolute;
-  left: 40px;
+  left: 30px;
   background-color: black;
   opacity: 0;
   transition-duration: .25s;
@@ -105,12 +105,15 @@ span {
   max-width: 1100px;
   width: 95%;
 }
-#text-display{
-  font-size: 30px;
+aside{
+  width: 200px;
+  text-align: right;
+  transform:rotate(-90deg);
+  transform-origin: right;
+  transform-origin: 115% 0%;
   position: fixed;
-  top: 160px;
-    -webkit-transform-origin: 40px 60px;
-    -webkit-transform: rotate(270deg); 
+  left: -200px;
+  font-size: 20px;
 }
 article {
   padding-top: 30px;
@@ -166,4 +169,9 @@ article {
 #apple
 {
   width:40%;
+}
+#two
+{
+  position: absolute;
+  top: 2500px;
 }
