@@ -8,17 +8,19 @@
 		<script type="text/javascript" src="script.js"></script> 
 		<script src="https://use.typekit.net/gvo4pcd.js"></script>
 		<script>try{Typekit.load({ async: true });}catch(e){}</script>
-		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="https://code.jquery.com/jquery-1.12.3.js"></script>
 	</head>
-<body class="body">
+<body class="body" id="body">
     <div class="header">
-      	<div class="names">
+      	<a href="#body" class="names">
         	<h1 class="name">catriona<span>ch</span></h1>
         	<h1 class="surname">sparrow</h1>
-		</div>
+		</a>
 		<nav class="menu">	
-			<button>menu</button>
-				<h2><a href="#edifly">portfolio</a></h2>
+			<button>
+  			<img src="hamburger.svg" alt="hamburgermenu" class="hamburger">
+  			</button>
+				<h2><a href="#body">portfolio</a></h2>
 				<h2><a href="#about">about</a></h2>
 				<h2><a href="#contact">contact</a></h2>
 		<script>
@@ -36,7 +38,7 @@
 		</aside>
 		<article class="imagebody">
 			<img src="images/inedifly.jpg" alt="edifly app screens" id="edifly" 
-			class="images" onmouseover="changeText('app design')" onmouseout="defaultText()">
+			class="images" onmouseover="changeText('app design'); changeDesc('meow')" onmouseout="defaultText(); defaultDesc()">
 			<img src="images/tmiy.jpg" alt="branding objects" id="tmiy" class="images" onmouseover="changeText('branding objects')" onmouseout="defaultText()">
 			<img src="images/shed1.jpg" alt="installation piece" id="shed" class="images" onmouseover="changeText('digital storytelling')" onmouseout="defaultText()">
 			<img src="images/domino.jpg" alt="book design" id="domino" class="images" onmouseover="changeText('book design')" onmouseout="defaultText()">
@@ -47,52 +49,43 @@
 			<img src="images/barras.jpg" alt="type design" id="barras" class="images" onmouseover="changeText('typeface design')" onmouseout="defaultText()">
 		</article>
 
-	<nav>
-		<div class="sidemenu" id="sidemenu1">	
-			<h4><a href="#edifly">portfolio</a></h4>
-			<h4><a href="#about" id="about2">about</a></h4>
-			<h4><a href="#contact">contact</a></h4>
-		</div>
-	</nav>
-		
-		<article class="aboutarticle">
-			<h3 id="about">graphic designer</h3>
-			<section id="education">
-				<p> 2014-2017 Edinburgh College of Art, University of Edinburgh, Scotland </p>
-				<p> Spring Semester 2016 Massachusetts College of Art & Design, Boston, MA, USA </p>
-				<p> 2013-2014 Foundation Diploma in Art & Design, University of Falmouth, Cornwall </p>
-			</section>
+		<article id="desc-display">
+			<p> </p>
 		</article>
-
-		<nav>
-		<div class="sidemenu" id="sidemenu2">	
-			<h5><a href="#edifly">portfolio</a></h5>
-			<h5><a href="#about">about</a></h5>
-			<h5><a href="#contact" id="contact3">contact</a></h5>
-		</div>
-		</nav>
 		
-		<article class="contactarticle">
-			<h3 id="contact">details</h3>
-			<section id="email">
-			<p> csparrow@massart.edu </p>
-			</section>
+		<article class="about" id="about">
+			<h3 >about</h3>
+			<ul>
+				<li>
+				<p class="dates"> 2014-2017 </p>
+				<p> Graphic Design BA (Hons), Edinburgh College of Art, </p>
+				<p> University of Edinburgh, Scotland </p>
+				</li>
+				<li>
+				<p class="dates"> 2016 (Spring Semester) </p>
+				<p> Massachusetts College of Art & Design </p>
+				<p> Boston, MA, USA </p>
+				</li>
+				<li>
+				<p class="dates"> 2013-2014 </p> 
+				<p> Foundation Diploma in Art & Design, </p>
+				<p> University of Falmouth, Cornwall </p>
+				</li>
+			</ul>
 		</article>
-
-
-
-	<xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" class="catriona" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 612 792" style="enable-background:new 0 0 612 792;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;}
-	.st1{font-family:'NeuzeitGro-Reg';}
-	.st2{font-size:72px;}
-</style>
-<rect x="189.6" y="241.6" class="st0" width="260.4" height="52.1"/>
-<text transform="matrix(1 0 0 1 189.6284 289.5869)" class="st1 st2">catriona</text>
-</svg>	
+		
+		<article class="contact" id="contact">
+			<h3>contact</h3>
+			<ul>
+				<li>
+				<p>csparrow@massart.edu</p>
+				</li>
+				<li>
+				<p>857-214-9589 (USA) 07958024166 (UK) </p>
+				</li>
+			</ul>
+		</article>
 	</div>
+
 </body>		
 </html>

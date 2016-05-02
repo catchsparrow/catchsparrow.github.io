@@ -168,3 +168,188 @@ button
   right: 5px;
   padding-left:40px;
 }
+
+fly out menu 
+
+
+.main-header
+{
+  background-color: black;
+}
+
+@import "compass/css3";
+
+* {
+  box-sizing: border-box;
+}
+
+html, body { min-height: 100%; }
+a { text-decoration: none; }
+
+.main-header {
+  background: black;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 3700px;
+  width: 100%;
+  left: 0;
+  transition: all 0.3s ease;
+  a {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    color: white;
+    font-size: 32px;
+  }
+}
+
+.page-wrap {
+  float: right;
+  width: 100%;
+  transition: width 0.3s ease;
+}
+
+.main-nav {
+  position: fixed;
+  top: 50px;
+  width: 0;
+  height: 20%;
+  background: black;
+  overflow-y: auto;
+  transition: width 0.3s ease;
+  a {
+    display: inline-block;
+    float: left;
+    width: 15px;
+    background: black;
+    color: white;
+    padding: 15px;
+    &:hover, &:focus {
+      background: linear-gradient(#484848, #383838);
+    }
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 34px;
+    background: linear-gradient(left, rgba(black, 0), rgba(black, 0.4));
+  }
+}
+
+.content {
+  padding: 100px 20px 20px 20px;
+}
+
+.close-menu {
+  display: none;
+}
+
+#main-nav:target {
+  width: 20%;
+}
+#main-nav:target + .page-wrap {
+  width: 80%;
+  .open-menu {
+     display: none; 
+  }
+  .main-header {
+    width: 80%;
+    left: 20%;
+  }
+}
+
+
+  <nav class="main-nav" id="main-nav">
+  <a href="#">This</a>
+  <a href="#">Little</a>
+  <a href="#">Piggy</a>
+  <a href="#">Went</a>
+  <a href="#">To</a>
+  <a href="#">Market</a>
+</nav>
+
+<div class="page-wrap">
+
+  <header class="main-header">
+    <a href="#main-nav" class="open-menu">
+      ☰
+    </a>
+    <a href="#" class="close-menu">
+      ☰
+    </a>
+    
+    <h1>cssPanelMenu</h1>
+  </header>
+
+catriona svg
+
+  <xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" class="catriona" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="0 0 612 792" style="enable-background:new 0 0 612 792;" xml:space="preserve">
+<style type="text/css">
+  .st0{fill:none;}
+  .st1{font-family:'NeuzeitGro-Reg';}
+  .st2{font-size:72px;}
+</style>
+<rect x="189.6" y="241.6" class="st0" width="260.4" height="52.1"/>
+<text transform="matrix(1 0 0 1 189.6284 289.5869)" class="st1 st2">catriona</text>
+</svg>  
+
+.catriona {
+    animation: hideshow 5s 1.5s ease infinite;
+}
+@keyframes hideshow {
+  0% { opacity: 1; }
+  10% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+extra images 
+
+side nav
+
+  <nav>
+    <div class="sidemenu">  
+      <h4><a href="#body">portfolio</a></h4>
+      <h4><a href="#about">about</a></h4>
+      <h4><a href="#contact">contact</a></h4>
+    </div>
+  </nav>
+
+  .sidemenu 
+{
+  width: 400px;
+  text-align: left;
+  transform:rotate(-270deg);
+  transform-origin: right;
+  transform-origin: -10% 40%;
+  position: absolute;
+  right: -410px;
+}
+h4 
+{
+  font-size: 18px;
+  float: left;
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.sidemenu a:visited, a:link {
+  color: black; 
+  text-decoration: none;
+}
+
+<nav>
+    <div class="sidemenu" id="sidemenu2"> 
+      <h5><a href="#body">portfolio</a></h5>
+      <h5><a href="#about">about</a></h5>
+      <h5><a href="#contact" id="contact3">contact</a></h5>
+    </div>
+  </nav>

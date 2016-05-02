@@ -1,13 +1,26 @@
-    function changeText(text)
+function changeText(text) {
+  var display = document.getElementById('text-display');
+  display.innerHTML = text;
+}
+
+    function changeDesc(text)
     {
-    var display = document.getElementById('text-display');
+    var display = document.getElementById('desc-display');
     display.innerHTML = text;
-    }     
+    }  
+
     function defaultText(text)
     {
     var display = document.getElementById('text-display');
     display.innerHTML = "";
     }
+    function defaultDesc(text)
+    {
+    var display = document.getElementById('desc-display');
+    display.innerHTML = "";
+    }
+
+
 
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
