@@ -114,4 +114,57 @@ button
   right: -410px;
   font-size: 20px;
   }
+
+hamburger in place of menu
   
+#nav-icon3 {
+  position: absolute;
+  top: 10px;
+  right: 40px;
+  width: -4px;
+}
+#nav-icon3 span {
+  padding-right: 40px;
+  display: inline-block;
+  position: absolute;
+  height: 2px;
+  background: blue;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+#nav-icon3 span:nth-child(1) {
+  top: 0px;
+}
+
+#nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
+  top: 10px;
+}
+
+#nav-icon3 span:nth-child(4) {
+  top: 20px;
+}
+
+<div id="nav-icon3">
+            <span></span>
+          <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+white hamburger in place of menu
+
+button
+{
+  background-color: black;
+  border: none;
+  color: white;
+}
+.hamburger{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding-left:40px;
+}

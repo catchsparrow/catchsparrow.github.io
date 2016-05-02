@@ -55,7 +55,8 @@ table {
 }
 .header{
  background-color: black;
- position: relative;
+ position: fixed;
+ width: 100%;
 }
 .names {
   font-size: 22px;
@@ -120,13 +121,14 @@ a:hover {
 {
   position: absolute;
   top: 10px;
-  right: 20px;
+  right: 50px;
 }
 .main{
   margin-left: auto;
   margin-right: auto;
   max-width: 1100px;
   width: 95%;
+  padding-top: 50px;
 }
 aside{
   width: 300px;
@@ -147,8 +149,8 @@ article {
   opacity: 0.25;
   float: left;
   display: inline-block;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
   padding-top: 20px;
   box-sizing: border-box;
   transition-duration: 0.25s;
@@ -193,7 +195,6 @@ article {
 {
   width:40%;
 }
-
 section, h3 
 {
   position: absolute;
@@ -203,15 +204,16 @@ section, h3
 h3
 {
   font-size:18px;
+  margin-top: 80px;
+  font-weight: bold;
 }
-
 #about
 {
   top: 2500px;
 }
 #education
 {
-  top: 2550px;
+  top: 2620px;
 }
 #contact
 {
@@ -219,7 +221,7 @@ h3
 }
 #email
 {
-  top: 3050px;
+  top: 3120px;
 }
 .sidemenu 
 {
@@ -239,7 +241,6 @@ h3
 {
   top: 3000px;
 }
-
 h4, h5
 {
   background-color: black;
@@ -257,3 +258,5 @@ h4, h5
 {
   text-decoration: line-through;
 }
+
+
