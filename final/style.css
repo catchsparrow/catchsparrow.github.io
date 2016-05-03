@@ -123,7 +123,7 @@ h2
 .menu
 {
   position: absolute;
-  top: 15px;
+  top: 19px;
   right: 60px;
 }
 .main 
@@ -140,28 +140,31 @@ aside
   text-align: right;
   transform:rotate(-90deg);
   transform-origin: right;
-  transform-origin: 120% 0%;
+  transform-origin: 118% 0%;
   position: fixed;
-  left: -200px;
+  left: -210px;
   font-size: 20px;
 }
 #desc-display
 {
-  padding-top: 40px;
+  padding-top: 50px;
+  position: fixed;
+  display: inline-block;
+  margin-right: 60px;
 }
 .imagebody
 {
   overflow: auto;
   padding-top: 30px;
-  padding-left: 20px;
+  padding-left: 60px;
   width: 85%;
   float: left;
   display: inline-block;
 }
 .images {
   float: left;
-  padding-right: 40px;
-  padding-left: 40px;
+  padding-right: 30px;
+  padding-left: 30px;
   padding-top: 20px;
   box-sizing: border-box;
   transition-duration: 0.25s;
@@ -207,12 +210,6 @@ aside
 {
   width:40%;
 }
-
-.all-text
-{
-  padding-top: 30px;
-}
-
 h3
 {
   font-size: 18px;
@@ -237,3 +234,4 @@ li
   list-style-type: none;
   padding-bottom: 20px;
 }
+
