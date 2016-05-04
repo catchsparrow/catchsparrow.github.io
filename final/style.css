@@ -242,14 +242,14 @@ li
     float: left;
     }
   .main 
-  {
+    {
     width: 400px;
-  }
+    }
   #edifly, #tmiy, #refugee, #shed, #domino, #package, #scher, #barras, #banner, #apple
-  {
+    {
     width: 95%;
-  }
-  }
+    }
+    }
 
 
 
