@@ -47,9 +47,9 @@ table {
   border-spacing: 0;
 }
 .body {
-  font-size: 16px;
+  font-size: 13px;
   font-family: "Neuzeit Grotesk";
-  line-height: 20px;
+  line-height: 17px;
   font-style: normal;
   font-weight: 400;
 }
@@ -150,20 +150,22 @@ aside
   padding-top: 50px;
   position: fixed;
   display: inline-block;
-  margin-right: 60px;
+  right: 70px;
+  width: 180px;
 }
 .imagebody
 {
   overflow: auto;
   padding-top: 30px;
-  padding-left: 60px;
-  width: 90%;
+  padding-left: 35px;
+  padding-right: 35px;
+  width: 85%;
   float: left;
   display: inline-block;
 }
 .images {
   float: left;
-  padding-right: 30px;
+  padding-right: 20px;
   padding-left: 30px;
   padding-top: 20px;
   box-sizing: border-box;
@@ -174,10 +176,10 @@ aside
   opacity: 0.5;
 }
 #edifly{
-  width:50%;
+  width:52%;
 }
 #tmiy{
-  width:44%;
+  width:46%;
 }
 #refugee{
   width:30%;
@@ -234,22 +236,31 @@ li
   list-style-type: none;
   padding-bottom: 20px;
 }
-@media only screen and (max-width: 750px)
+@media only screen and (max-width: 850px)
     {
   .imagebody 
-    {
+  {
     width: 95%;
     float: left;
-    }
+  }
+  aside
+  {
+    left: -115px;
+  }
+  #desc-display
+  {
+    right: 10px;
+    width: 80px;
+  }
   .main 
-    {
-    width: 400px;
-    }
+  {
+    width: 90%;
+  }
   #edifly, #tmiy, #refugee, #shed, #domino, #package, #scher, #barras, #banner, #apple
-    {
-    width: 95%;
-    }
-    }
+  {
+    width: 85%;
+  }
+  }
 
 
 
