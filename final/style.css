@@ -140,9 +140,9 @@ aside
   text-align: right;
   transform:rotate(-90deg);
   transform-origin: right;
-  transform-origin: 125% 80%;
   position: fixed;
-  left: 5px;
+  left: 25px;
+  top: 94px;
   font-size: 20px;
 }
 #desc-display
@@ -161,7 +161,6 @@ aside
   padding-right: 35px;
   width: 85%;
   float: left;
-  display: inline-block;
 }
 .images {
   float: left;
