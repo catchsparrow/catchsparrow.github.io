@@ -128,7 +128,7 @@ h2
 }
 .main 
 {
-  margin-left: 80px;
+  margin-left: 50px;
   max-width: 1200px;
   width: calc (100% - 120px);
   padding-top: 50px;
@@ -137,7 +137,7 @@ h2
 }
 aside
 {
-  width: 150px;
+  width: 128px;
   text-align: right;
   transform:rotate(-90deg);
   transform-origin: right;
@@ -162,7 +162,7 @@ aside
 {
   overflow: auto;
   padding-top: 30px;
-  margin-left: 80px;
+  margin-left: 70px;
   width:calc(100% - 300px);
   float: left;
   background-color: grey;
@@ -241,7 +241,7 @@ li
   list-style-type: none;
   padding-bottom: 20px;
 }
-@media only screen and (max-width: 1200px)
+@media only screen and (max-width: 900px)
     {
   .main 
   {
@@ -251,6 +251,18 @@ li
   {
     width: 95%;
     margin-bottom: (calc 100% - 30px);
+  }
+  h2
+  {
+    font-size: 14px;
+  }
+  .imagebody
+  {
+    width: 54%;
+  }
+  #desc-display
+  {
+    width: 22%;
   }
   }
 
