@@ -128,11 +128,12 @@ h2
 }
 .main 
 {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 900px;
-  width: 95%;
+  margin-left: 80px;
+  max-width: 1200px;
+  width: calc (100% - 120px);
   padding-top: 50px;
+  overflow: auto;
+  background-color: blue;
 }
 aside
 {
@@ -141,7 +142,7 @@ aside
   transform:rotate(-90deg);
   transform-origin: right;
   position: fixed;
-  left: 25px;
+  left: 5px;
   top: 94px;
   font-size: 20px;
 }
@@ -149,9 +150,9 @@ aside
 {
   padding-top: 50px;
   position: fixed;
-  display: inline-block;
-  right: 70px;
+  right: 40px;
   width: 200px;
+  background-color: green;
 }
 .title
 {
@@ -161,10 +162,10 @@ aside
 {
   overflow: auto;
   padding-top: 30px;
-  padding-left: 35px;
-  padding-right: 35px;
-  width: 85%;
+  margin-left: 80px;
+  width:calc(100% - 300px);
   float: left;
+  background-color: grey;
 }
 .images {
   float: left;
@@ -240,32 +241,18 @@ li
   list-style-type: none;
   padding-bottom: 20px;
 }
-@media only screen and (max-width: 850px)
+@media only screen and (max-width: 1200px)
     {
-  .imagebody 
-  {
-    width: 95%;
-    float: left;
-  }
-  aside
-  {
-    left: -90px;
-  }
-  #desc-display
-  {
-    right: 10px;
-    width: 80px;
-  }
   .main 
   {
-    width: 90%;
+    width: (calc 100% - 100px);
   }
   #edifly, #tmiy, #refugee, #shed, #domino, #package, #scher, #barras, #banner, #apple
   {
-    width: 75%;
+    width: 95%;
+    margin-bottom: (calc 100% - 30px);
   }
   }
-
 
 
   
