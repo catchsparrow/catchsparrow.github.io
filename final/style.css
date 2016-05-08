@@ -179,21 +179,22 @@ aside
   opacity: 0.5;
 }
 #edifly{
-  width:52%;
+  width:64%;
 }
 #tmiy{
-  width:46%;
+  width:64%;
 }
-#refugee{
-  width:30%;
+#refugee
+{
+  width:32%;
 }
 #shed
 {
-  width:55%;
+  width:64%;
 }
 #domino
 {
-  width:30%;
+  width:32%;
 }
 #package
 {
@@ -201,19 +202,19 @@ aside
 }
 #scher
 {
- width:60%;
+ width:64%;
 }
 #barras
 {
-  width:40%;
+  width:32%;
 }
 #banner
 {
-  width:60%;
+  width:64%;
 }
 #apple
 {
-  width:40%;
+  width:32%;
 }
 h3
 {
@@ -261,7 +262,7 @@ li
   }
   #edifly, #tmiy, #refugee, #shed, #domino, #package, #scher, #barras, #banner, #apple
   {
-    width: 85%;
+    width: 75%;
   }
   }
 

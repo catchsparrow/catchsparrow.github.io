@@ -17,9 +17,8 @@ function changeText(text) {
     function defaultDesc(text)
     {
     var display = document.getElementById('desc-display');
-    display.innerHTML = "";
+    display.innerHTML = "text desc this is to make it a little longer just so we can see it work";
     }
-
 
 
 $(function() {
