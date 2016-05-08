@@ -151,7 +151,11 @@ aside
   position: fixed;
   display: inline-block;
   right: 70px;
-  width: 180px;
+  width: 200px;
+}
+.title
+{
+  color: grey;
 }
 .imagebody
 {
