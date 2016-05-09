@@ -235,9 +235,13 @@ li
   list-style-type: none;
   padding-bottom: 10px;
 }
-li:first-of-type 
+li:first-of-type
 {
   font-weight: bold;
+}
+.info
+{
+  text-decoration: none;
 }
 @media only screen and (max-width: 960px)
     {
