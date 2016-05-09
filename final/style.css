@@ -241,7 +241,7 @@ li:first-of-type
 }
 .info
 {
-  text-decoration: none;
+  font-weight: normal;
 }
 @media only screen and (max-width: 960px)
     {
