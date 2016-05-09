@@ -12,7 +12,7 @@ function changeText(text) {
     function defaultText(text)
     {
     var display = document.getElementById('text-display');
-    display.innerHTML = "projects";
+    display.innerHTML = "";
     }
     function defaultDesc(text)
     {
