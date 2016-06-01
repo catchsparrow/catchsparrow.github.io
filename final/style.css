@@ -281,5 +281,22 @@ li:first-of-type
     width: 28%;
   }
 }
-
+@media only screen and (max-width: 350px)
+    {
+  .imagebody
+  {
+    width: 60%;
+  }
+  aside
+{
+  width: 150px;
+  text-align: right;
+  transform:rotate(-90deg);
+  transform-origin: right;
+  position: fixed;
+  left: -80px;
+  top: 94px;
+  font-size: 20px;
+}
+  }
   
