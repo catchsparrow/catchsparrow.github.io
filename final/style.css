@@ -281,7 +281,27 @@ li:first-of-type
     width: 28%;
   }
   }
-
+@media only screen and (max-width: 320px)
+  {
+  .imagebody
+  {
+    width: 65%;
+    margin-left: 15px;
+  }
+    #desc-display
+  {
+    width: 25%;
+    font-size: 5px;
+    line-height: 8px;
+  }
+    h2 
+  {
+  font-size: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 10px;
+  }
+  }
 
 
   
