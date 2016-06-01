@@ -245,7 +245,7 @@ li:first-of-type
   font-weight: normal;
 }
 @media only screen and (max-width: 960px)
-    {
+  {
   .main 
   {
     width: (calc 100% - 100px);
@@ -271,7 +271,7 @@ li:first-of-type
   }
   }
 @media only screen and (max-width: 720px)
-    {
+  {
   .imagebody
   {
     width: 54%;
@@ -280,12 +280,12 @@ li:first-of-type
   {
     width: 28%;
   }
-}
-@media only screen and (min-width: 320px)
-{
+  }
+@media only screen and (max-width: 320px)
+  {
  .imagebody
   {
-    width: 54%;
+    width: 65%;
     margin-left: 20px;
   }
     #desc-display
@@ -301,7 +301,7 @@ li:first-of-type
   padding-right: 10px;
   padding-top: 10px;
   }
-}
+  }
 
 
   
