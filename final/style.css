@@ -281,7 +281,7 @@ li:first-of-type
     width: 28%;
   }
   }
-@media only screen and (max-width: 380px)
+@media only screen and (max-width: 320px)
   {
   .imagebody
   {
