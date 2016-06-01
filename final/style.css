@@ -287,7 +287,7 @@ li:first-of-type
   {
     width: 65%;
     margin-left: 15px;
-    overflow: auto;
+    float: left;
   }
     #desc-display
   {
