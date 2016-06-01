@@ -285,11 +285,11 @@ li:first-of-type
     {
   .imagebody
   {
-    width: 100%;
+    width: 50%;
   }
     #desc-display
   {
-    width: 98%;
+    width: 30%;
   }
   aside
   {
