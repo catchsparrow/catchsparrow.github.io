@@ -281,12 +281,12 @@ li:first-of-type
     width: 28%;
   }
   }
-@media only screen and (max-width:320px)
+@media only screen and (max-width: 320px)
   {
- .imagebody
+  .imagebody
   {
     width: 65%;
-    margin-left: 15px;
+    margin-left: 5px;
   }
     #desc-display
   {
