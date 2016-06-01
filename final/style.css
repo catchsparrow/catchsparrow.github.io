@@ -290,6 +290,7 @@ li:first-of-type
     #desc-display
   {
     width: 30%;
+    right: 10px;
   }
   aside
   {
