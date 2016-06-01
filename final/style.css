@@ -287,8 +287,12 @@ li:first-of-type
   {
     width: 100%;
   }
+    #desc-display
+  {
+    width: 98%;
+  }
   aside
-{
+  {
   width: 150px;
   text-align: right;
   transform:rotate(-90deg);
@@ -297,6 +301,6 @@ li:first-of-type
   left: -80px;
   top: 94px;
   font-size: 20px;
-}
+  }
   }
   
