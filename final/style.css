@@ -281,12 +281,18 @@ li:first-of-type
     width: 28%;
   }
 }
-@media only screen and (min-width: 320px)
+@media only screen and (max-width: 320px)
 {
  .imagebody
   {
     width: 54%;
     margin-left: 20px;
+  }
+    #desc-display
+  {
+    width: 18%;
+    font-size: 5px;
+    line-height: 8px;
   }
 }
 
