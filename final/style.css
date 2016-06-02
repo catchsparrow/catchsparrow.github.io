@@ -291,11 +291,12 @@ li:first-of-type
   }
   span
   {
-    left:24px;
+    position: absolute;
+    left:6px;
   }
   .imagebody 
   {
-    width: 100%;
+    width: 80%;
     margin-left: 5px;
   }
     #desc-display
