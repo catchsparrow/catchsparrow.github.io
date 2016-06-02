@@ -283,7 +283,7 @@ li:first-of-type
   } 
 @media only screen and (min-device-width: 375px)
   {
-  #edifly, #tmiy, #refugee, #shed, #domino, #package, #scher, #barras, #banner, #apple
+  .imagebody 
   {
     width: 100%;
     margin-left: 15px;
