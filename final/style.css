@@ -283,10 +283,17 @@ li:first-of-type
   } 
 @media only screen and (min-device-width: 375px)
   {
+  .names 
+  {
+  font-size: 18px;
+  padding: 10px;
+  width: 20%;
+  margin-left: 20px;
+  }
   .imagebody 
   {
     width: 100%;
-    margin-left: 15px;
+    margin-left: 5px;
   }
     #desc-display
   {
