@@ -309,7 +309,6 @@ li:first-of-type
   transform:rotate(-90deg);
   transform-origin: right;
   position: fixed;
-  left: 2px;
   font-size: 14px;
   }
     #desc-display
