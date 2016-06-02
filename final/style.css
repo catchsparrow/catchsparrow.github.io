@@ -281,10 +281,11 @@ li:first-of-type
     width: 28%;
   }
   } 
-@media only screen and (max-width: 320px){ 
-#edifly, #tmiy, #refugee, #shed, #domino, #package, #scher, #barras, #banner, #apple
+@media only screen and (max-width: 320px)
   {
-    width: 65%;
+  #edifly, #tmiy, #refugee, #shed, #domino, #package, #scher, #barras, #banner, #apple
+  {
+    width: 100%;
     margin-left: 15px;
   }
     #desc-display
@@ -300,7 +301,6 @@ li:first-of-type
   padding-right: 8px;
   padding-top: 10px;
   }
-
-
+  }
 
   
