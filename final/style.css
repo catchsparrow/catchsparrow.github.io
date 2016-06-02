@@ -286,9 +286,12 @@ li:first-of-type
   .names 
   {
   font-size: 18px;
-  padding: 10px;
   width: 20%;
-  margin-left: 20px;
+  margin-left: 10px;
+  }
+  span
+  {
+    left:24px;
   }
   .imagebody 
   {
