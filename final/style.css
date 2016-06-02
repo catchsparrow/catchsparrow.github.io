@@ -308,9 +308,9 @@ li:first-of-type
   font-size: 14px;
   width: 150px;
   text-align: right;
-  transform:rotate(270deg);
+  transform:rotate(-90deg);
   transform-origin: right;
-  left: -80px;
+  left: -40px;
   top: 94px;
   }
     #desc-display
