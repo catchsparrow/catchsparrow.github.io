@@ -309,7 +309,7 @@ li:first-of-type
   transform:rotate(-90deg);
   transform-origin: right;
   position: fixed;
-  font-size: 14px;
+  font-size: 16px;
   }
     #desc-display
   {
