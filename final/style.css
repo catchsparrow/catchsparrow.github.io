@@ -294,6 +294,10 @@ li:first-of-type
     position: absolute;
     left:30px;
   }
+  .menu
+  {
+  right: 30px;
+  }
   .imagebody 
   {
     width: 80%;
