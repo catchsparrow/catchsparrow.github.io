@@ -300,8 +300,19 @@ li:first-of-type
   }
   .imagebody 
   {
-    width: 80%;
+    width: 70%;
     margin-left: 5px;
+  }
+  aside
+  {
+  width: 20px;
+  text-align: right;
+  transform:rotate(-90deg);
+  transform-origin: right;
+  position: fixed;
+  left: -80px;
+  top: 94px;
+  font-size: 20px;
   }
     #desc-display
   {
