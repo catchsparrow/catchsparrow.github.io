@@ -280,10 +280,9 @@ li:first-of-type
   {
     width: 28%;
   }
-  }
-@media only screen and (max-width: 320px)
-  {
-  .imagebody
+  } 
+@media only screen and (max-width: 320px){ 
+#edifly, #tmiy, #refugee, #shed, #domino, #package, #scher, #barras, #banner, #apple
   {
     width: 65%;
     margin-left: 15px;
@@ -301,7 +300,7 @@ li:first-of-type
   padding-right: 8px;
   padding-top: 10px;
   }
-  }
+
 
 
   
