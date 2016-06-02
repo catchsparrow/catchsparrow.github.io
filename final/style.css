@@ -306,6 +306,12 @@ li:first-of-type
   aside
   {
   font-size: 14px;
+  width: 150px;
+  text-align: right;
+  transform:rotate(270deg);
+  transform-origin: right;
+  left: -80px;
+  top: 94px;
   }
     #desc-display
   {
