@@ -307,10 +307,7 @@ li:first-of-type
   {
   font-size: 14px;
   width: 10px;
-  text-align: right;
-  transform:rotate(270deg);
   left: -125px;
-  top: 94px;
   }
     #desc-display
   {
