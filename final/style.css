@@ -310,7 +310,7 @@ li:first-of-type
   text-align: right;
   transform:rotate(-90deg);
   transform-origin: right;
-  left:10px;
+  left: -10px;
   top: 94px;
   }
     #desc-display
