@@ -1,0 +1,323 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.body {
+  font-size: 13px;
+  font-family: "Neuzeit Grotesk";
+  line-height: 17px;
+  font-style: normal;
+  font-weight: 400;
+}
+.header{
+ background-color: white;
+ position: fixed;
+ width: 100%;
+ z-index: 1;
+}
+.names {
+  font-size: 22px;
+  color: black;
+  padding: 10px;
+  width: 50%;
+  margin-left: 50px;
+  display: block;
+  padding-top: 20px;
+}
+h1 {
+  position: relative;
+}
+span {
+  padding-right: 100px;
+  position: absolute;
+  left: 28px;
+  background-color: white;
+  opacity: 0;
+  transition-duration: .25s;
+  transition-property: opacity;
+  padding-top: 5px;
+  margin-top: -5px;
+}
+.names:hover span {
+  opacity: 1;
+}
+.name {
+  display: inline-block;
+  position: relative;
+}
+.surname{
+  margin-top: -3px;
+}
+button
+{
+  background-color: white;
+  border: none;
+}
+.hamburger
+{
+  width: 30px;
+  height: 30px;
+}
+h2 
+{
+  font-size: 18px;
+  float: left;
+  display: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+.menu a:visited, a:link 
+{
+  color: black; 
+  text-decoration: none;
+}
+.sidemenu a:hover, .menu a:hover 
+{
+  text-decoration: line-through;
+}
+.menu
+{
+  position: absolute;
+  top: 19px;
+  right: 50px;
+}
+.main 
+{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  width: calc (100% - 120px);
+  padding-top: 50px;
+  overflow: auto;
+}
+aside
+{
+  width: 150px;
+  text-align: right;
+  transform:rotate(-90deg);
+  transform-origin: right;
+  position: fixed;
+  left: -80px;
+  top: 94px;
+  font-size: 20px;
+}
+#desc-display
+{
+  padding-top: 50px;
+  position: fixed;
+  right: 30px;
+  width: 200px;
+}
+.title
+{
+  color: grey;
+}
+.imagebody
+{
+  overflow: auto;
+  padding-top: 30px;
+  margin-left: 80px;
+  width:calc(100% - 300px);
+  float: left;
+}
+.images {
+  float: left;
+  padding-right: 20px;
+  padding-left: 30px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  transition-duration: 0.25s;
+}
+.images:hover 
+{
+  opacity: 0.5;
+}
+#edifly{
+  width:64%;
+}
+#tmiy{
+  width:64%;
+}
+#refugee
+{
+  width:32%;
+}
+#shed
+{
+  width:64%;
+}
+#domino
+{
+  width:32%;
+}
+#package
+{
+  width:50%
+}
+#barras
+{
+  width:32%;
+}
+#banner
+{
+  width:64%;
+}
+#apple
+{
+  width:32%;
+}
+h3
+{
+  font-size: 18px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.contact, .about
+{
+  padding-top: 120px;
+  text-align: right;
+  float: right;
+  padding-right: 50px;
+  width: 100%;
+  padding-bottom: 60px;
+}
+.dates
+{
+  color: grey;
+  font-weight: normal;
+}
+li
+{
+  list-style-type: none;
+  padding-bottom: 10px;
+}
+li:first-of-type
+{
+  font-weight: bold;
+}
+.info
+{
+  font-weight: normal;
+}
+@media only screen and (max-width: 960px)
+  {
+  .main 
+  {
+    width: (calc 100% - 100px);
+  }
+  #edifly, #tmiy, #refugee, #shed, #domino, #package, #scher, #barras, #banner, #apple
+  {
+    width: 95%;
+    margin-bottom: (calc 100% - 30px);
+  }
+  h2
+  {
+    font-size: 14px;
+  }
+  .imagebody
+  {
+    width: 68%;
+  }
+  #desc-display
+  {
+    width: 22%;
+    font-size: 10px;
+    line-height: 14px;
+  }
+  }
+@media only screen and (max-width: 720px)
+  {
+  .imagebody
+  {
+    width: 54%;
+  }
+    #desc-display
+  {
+    width: 28%;
+  }
+  } 
+@media only screen and (max-device-width: 375px)
+  {
+  .names 
+  {
+  font-size: 18px;
+  width: 20%;
+  margin-left: 10px;
+  }
+  span
+  {
+    position: absolute;
+    left: 30px;
+  }
+  .menu
+  {
+  right: 7px;
+  }
+  .imagebody 
+  {
+    width: 70%;
+    margin-left: 5px;
+  }
+    #desc-display
+  {
+    width: 25%;
+    font-size: 10px;
+  }
+    h2 
+  {
+  font-size: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 10px;
+  }
+  }
+
+  
+
+
+  
