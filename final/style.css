@@ -306,7 +306,7 @@ li:first-of-type
   aside
   {
   font-size: 14px;
-  width: 10px;
+  width: 150px;
   text-align: right;
   transform:rotate(-90deg);
   transform-origin: right;
