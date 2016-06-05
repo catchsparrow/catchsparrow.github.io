@@ -308,6 +308,8 @@ li:first-of-type
   font-size: 14px;
   width: 10px;
   text-align: right;
+  transform:rotate(-90deg);
+  transform-origin: right;
   left: -125px;
   top: 94px;
   }
