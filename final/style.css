@@ -322,7 +322,7 @@ li:first-of-type
   transform:rotate(-90deg);
   transform-origin: right;
   position: fixed;
-  left: -100px;
+  left: -50px;
   top: 94px;
   font-size: 10px;
   }
