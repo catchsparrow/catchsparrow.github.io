@@ -317,12 +317,12 @@ li:first-of-type
   }
   aside
   {
-  width: 40px;
+  width: -60px;
   text-align: right;
   transform:rotate(-90deg);
   transform-origin: right;
   position: fixed;
-  left: -40px;
+  left: 10px;
   top: 94px;
   font-size: 10px;
   }
