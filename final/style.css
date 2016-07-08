@@ -315,6 +315,17 @@ li:first-of-type
   padding-right: 8px;
   padding-top: 10px;
   }
+  aside
+  {
+  width: 150px;
+  text-align: right;
+  transform:rotate(-90deg);
+  transform-origin: right;
+  position: fixed;
+  left: -80px;
+  top: 94px;
+  font-size: 10px;
+  }
   }
 
   
