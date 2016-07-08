@@ -317,7 +317,7 @@ li:first-of-type
   }
   aside
   {
-  width: -60px;
+  width: 20px;
   text-align: right;
   transform:rotate(-90deg);
   transform-origin: right;
