@@ -276,7 +276,7 @@ li:first-of-type
   {
     width: 54%;
   }
-    #desc-display
+  #desc-display
   {
     width: 28%;
   }
@@ -303,12 +303,12 @@ li:first-of-type
     width: 70%;
     margin-left: 5px;
   }
-    #desc-display
+  #desc-display
   {
     width: 25%;
     font-size: 10px;
   }
-    h2 
+  h2 
   {
   font-size: 10px;
   padding-left: 8px;
